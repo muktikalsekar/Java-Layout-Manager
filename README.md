@@ -4,6 +4,7 @@ The LayoutManagers are used to arrange components in a particular manner. Layout
 Java BorderLayout:-
 
 The BorderLayout is used to arrange the components in five regions: north, south, east, west and center. Each region (area) may contain one component only. It is the default layout of frame or window. 
+
 Constructors of BorderLayout class:-
 
 BorderLayout(): creates a border layout but with no gaps between the components.
@@ -12,7 +13,8 @@ JBorderLayout(int hgap, int vgap): creates a border layout with the given horizo
 Java GridLayout:-
 
 The GridLayout is used to arrange the components in rectangular grid. One component is displayed in each rectangle.
-Constructors of GridLayout class
+
+Constructors of GridLayout class:-
 GridLayout(): creates a grid layout with one column per component in a row.
 GridLayout(int rows, int columns): creates a grid layout with the given rows and columns but no gaps between the components.
 GridLayout(int rows, int columns, int hgap, int vgap): creates a grid layout with the given rows and columns alongwith given horizontal and vertical gaps.
